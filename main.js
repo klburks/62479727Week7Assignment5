@@ -9,14 +9,10 @@ function getPizzaOrder(array) {
 console.log(getPizzaOrder(myArray));
 
 //Question 3
-
 function addTax(array) {
     array.splice((array[1]*0.0925).toFixed(2));
     return array;
 }
-
-addTax(array);
-
 
 //Question 4
 
@@ -52,7 +48,6 @@ function getEvens(startNum, endNum) {
     }
     return arr;
 }
-
 
 //Question 7
 let flavors = ["vanilla", "strawberry", "chocolate"];
